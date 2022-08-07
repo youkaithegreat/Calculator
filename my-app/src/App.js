@@ -125,6 +125,7 @@ function evaluate({ currentOperand, previousOperand, operation }) {
   }
   return computation.toString();
 }
+
 function App() {
   const [{ currentOperand, previousOperand, operation }, dispatch] = useReducer(
     reducer,
